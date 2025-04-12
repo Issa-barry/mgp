@@ -12,6 +12,9 @@ import { ChartModule } from 'primeng/chart';
 import { KnobModule } from 'primeng/knob';
 import { RatingModule } from 'primeng/rating';
 import { RippleModule } from 'primeng/ripple';
+import { ToastModule } from 'primeng/toast';
+import { ToolbarModule } from 'primeng/toolbar';
+import { FileUploadModule } from 'primeng/fileupload';
 
 @NgModule({
 	imports: [
@@ -26,7 +29,11 @@ import { RippleModule } from 'primeng/ripple';
 		InputTextareaModule,
 		ChartModule,
 		RatingModule,
-		KnobModule
+		KnobModule, 
+		ToastModule,
+		ToolbarModule,
+		FileUploadModule,
+
 	],
 	declarations: [EcommerceDashboardComponent]
 })
